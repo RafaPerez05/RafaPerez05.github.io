@@ -1,18 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Inicio</title>
-    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Bulma Version 0.9.x -->
+    <title>Contato</title>
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
-    <link rel="stylesheet" href="text.css" />
-
 </head>
 
 <body>
@@ -48,33 +41,59 @@
                 </nav>
         </div>
         <div class="hero-body">
-            <div class="container has-text-centered">
-                <div class="columns is-vcentered">
-                    <div class="column is-5">
-                        <figure class="image is-200x200">
-                            <img class="is-rounded" src="https://avatars.githubusercontent.com/u/126112322?v=4"
-                                alt="Description">
-                        </figure>
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-half">
+                        <h1 class="title is-1 has-text-centered">Entre em Contato</h1>
+
+                        <!-- Informações de Contato -->
+                        <div class="box">
+                            <p class="subtitle is-5">
+                                <strong>Email:</strong> rafaelperezsilva2005@gmail.com<br>
+                                <strong>Número de Telefone:</strong> (18) 98161-7763
+                            </p>
+                        </div>
+
+                        <!-- Formulário de Contato -->
+                        <form>
+                            <div class="field">
+                                <label class="label">Nome</label>
+                                <div class="control">
+                                    <input class="input" type="text" placeholder="Seu Nome">
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control">
+                                    <input class="input" type="email" placeholder="Seu Email">
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Mensagem</label>
+                                <div class="control">
+                                    <textarea class="textarea" placeholder="Sua Mensagem"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="control">
+                                    <button class="button is-info">Enviar Mensagem</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="column is-6 is-offset-1">
-                        <h1 class="title is-1" id="Name">
-                            Rafael Perez Silva
-                        </h1>
-                        <h2 class="subtitle is-6">
-                            Olá! Sou Rafael, um profissional apaixonado por tecnologia.
-                        </h2>
-                        <br>
-                        <p class="has-text-centered">
-                            <a class="button is-medium is-info is-outlined" href="https://rafaelperez.online/"
-                                target="_blank">
-                                Meu Portifolio
-                            </a>
-                        </p>
+
+                    <!-- Mapa do Google -->
+                    <div class="column is-half">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.387206586983!2d-51.168843885586546!3d-22.125717185398858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9d4c6dd87a097%3A0x2d81d4e83b1b000b!2sPresidente%20Prudente%2C%20SP%2C%2019010-300!5e0!3m2!1sen!2sbr!4v1646192946209!5m2!1sen!2sbr"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="hero-foot">
             <div class="container">
                 <div class="tabs is-centered">
@@ -85,7 +104,6 @@
             </div>
         </div>
     </section>
-    <script src="../js/bulma.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
 
